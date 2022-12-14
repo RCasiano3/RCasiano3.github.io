@@ -8,8 +8,8 @@
         <title>Weather Analysis Landing Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
 
@@ -27,10 +27,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle navbar-custom" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a>
+                        <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind.html">Wind Speed</a>
                     </div>
                 </li>
                     <a class="nav-link navbar-custom" href="comparison.html">Comparison</a>
@@ -53,7 +53,7 @@
             <h1>Summary: Latitude vs. Various Climate Factors</h1>
             <hr>
             <article>
-                <img src="assets/images/LatvsWindSpeed.png" alt="Tempurature Map" class="big_img" width=50% style="float: left">
+                <img src="LatvsWindSpeed.png" alt="Tempurature Map" class="big_img" width=50% style="float: left">
                 <br>
                 <p>For this assignment, we worked to create a Python script to visualize the weather of over 500 cities of varying distances from the equator. To obtain the desired information, data on the random cities was obtained through the OpenWeatherMap API and queries were then established to identify various relationshps of latitude vs climate factors.</p>
                 <p>The data obtained through these queries was then assembled into specific databases. Matplotlib was then utilized to visualize the databases for the climate factors of maximum temperature, humidity, cloudiness, and wind speed vs. latitude. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
@@ -66,17 +66,17 @@
             <h1>Visualizations</h1>
             <article>
             <hr>
-                <a href="visualizations/temp.html">
-                    <img src="assets/images/LatvsWindSpeed.png" alt="Tempurature Graph" class="small_img">
+                <a href="temp.html">
+                    <img src="LatvsWindSpeed.png" alt="Tempurature Graph" class="small_img">
                 </a>
-                <a href="visualizations/humidity.html">
-                    <img src="assets/images/LatvsHumidity.png" alt="Humidity Graph" class="small_img">
+                <a href="humidity.html">
+                    <img src="LatvsHumidity.png" alt="Humidity Graph" class="small_img">
                 </a>
-                <a href="visualizations/cloudiness.html">
-                    <img src="assets/images/LatvsCloudiness.png" alt="Cloudiness Graph" class="small_img">
+                <a href="cloudiness.html">
+                    <img src="LatvsCloudiness.png" alt="Cloudiness Graph" class="small_img">
                 </a>
-                <a href="visualizations/wind.html">
-                    <img src="assets/images/LatvsWindSpeed.png" alt="WindSpeed Graph" class="small_img">
+                <a href="wind.html">
+                    <img src="LatvsWindSpeed.png" alt="WindSpeed Graph" class="small_img">
                 </a>
             </article>
         </div>
